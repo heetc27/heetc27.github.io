@@ -495,7 +495,9 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title {
+  margin-bottom: 15px;
+}
 
 .about-text {
   color: var(--light-gray);
@@ -504,7 +506,20 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p {
+  margin-bottom: 15px;
+}
+
+/* Add styles for the unordered list */
+.about-text ul {
+  list-style: disc; /* Display bullet points */
+  margin-left: 20px; /* Add indentation for bullets */
+  padding-left: 0; /* Remove any default padding */
+}
+
+.about-text li {
+  margin-bottom: 10px; /* Add spacing between items */
+} p { margin-bottom: 15px; }
 
 
 
